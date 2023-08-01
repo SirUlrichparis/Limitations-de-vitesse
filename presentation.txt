@@ -1,1 +1,4 @@
-OpenCV - Limitations de vitesse affichées sur des panneaux routiers dans des photos 
+Présentation du projet :
+
+Le projet consiste en un système de détection de panneaux de signalisation à partir de vidéos de dashcam. Le code est écrit en langage Python et utilise TensorFlow pour construire les modèles de détection. 
+Le projet utilise des techniques de traitement d'images, d'apprentissage profond et d'apprentissage automatique pour accomplir sa tâche de détection et de classification de panneaux de signalisation dans des vidéos de dashcam.
