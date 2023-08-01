@@ -1,0 +1,15 @@
+Voici le plan de travail pour le projet :
+
+    Définition des classes de panneaux de signalisation : Il s'agit de définir les différentes classes de panneaux de signalisation que nous souhaitons détecter et classifier. Le modèle de classification sera ajusté en fonction de ces classes.
+
+    Collecte des données : Nous devons rassembler des images de panneaux de signalisation pour entraîner le modèle. Ces images peuvent être stockées dans le répertoire "photos_panneaux" situé dans le dossier du projet.
+
+    Génération de données d'entraînement : Utiliser des fonctions pour créer des variations des images de panneaux existantes. Cela augmentera la taille du jeu de données, ce qui améliorera les performances du modèle. Le fichier de données ainsi créé constituera notre jeu de données d'entraînement (dataset).
+
+    Entraînement du modèle de détection : Utiliser le fichier contenant les fonctions élaborées pour entraîner le modèle de détection. Ce modèle permettra de localiser les panneaux de signalisation dans les images.
+
+    Entraînement du modèle de classification : Utiliser le fichier contenant les fonctions élaborées pour entraîner le modèle de classification. Ce modèle permettra de classifier les panneaux de signalisation en fonction de leurs classes.
+
+    Test du modèle : Créer un fichier pour lire les vidéos de dashcam et détecter les panneaux de signalisation en temps réel. Vérifier si les prédictions du modèle sont correctes et ajuster les paramètres du modèle si nécessaire.
+
+    Optimisation des performances : Si les performances du modèle ne sont pas satisfaisantes, nous pouvons ajuster les hyperparamètres du modèle, augmenter la taille du jeu de données ou essayer d'autres techniques pour améliorer le modèle. L'objectif est d'obtenir des résultats précis et fiables dans la détection et la classification des panneaux de signalisation.
